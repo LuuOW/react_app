@@ -1,20 +1,28 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-function Greeting() {
+function List() {
     return (
-        <div>
+        <section>
             <Person />
-            <Messege />
-        </div>
+        </section>
     );
 }
 
-const Person = () => <h2>Lucas Kempe</h2>;
-const Messege = () => {
-    return(
-        <p>Hello there</p>
+const Person = () => {
+    return (
+        <article>
+            <Img />
+            <Name />
+        </article>
+    );
+}
+const Img = () => (
+    <img src = 'https://avatars3.githubusercontent.com/u/36010086?s=460&u=798aadbb6ca1ff415ab187b6446c127d6f30b5ac&v=4' alt = '' />);
+const Name = () => {
+    return (
+        <h1>This is the Lucas Kempe Profile</h1>
     );
 }
 
-ReactDom.render(<Greeting/>, document.getElementById('root'));
+ReactDom.render(<List/>, document.getElementById('root'));
