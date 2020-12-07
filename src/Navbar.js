@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className = "NavbarItems">
-                <h1 className = "navbar-logo">React</h1>
+                <h1 className = "navbar-logo">Kemp3<i class="fas fa-skull"></i></h1>
                 <div className = "menu-icon">
 
                 </div>
