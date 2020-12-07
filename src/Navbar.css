@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    color: #ffffff;
 }
 
 .navbar-logo {
@@ -16,4 +17,19 @@
 .fa-skull {
     margin-left: 0.5rem;
     font-size: 1.6rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+}
+
+.nav-links {
+    color: #ffffff;
+    text-decoration: none;
 }
