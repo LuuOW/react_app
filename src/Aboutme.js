@@ -5,7 +5,9 @@ class Aboutme extends Component {
     render() {
         return (
             <div className = "Aboutme">
-                <h1>Hey there</h1>
+                <section className = "AboutmeBox">
+                    <h1>Acerca de mi, lo que debes saber...</h1>
+                </section>
             </div>
         );
     }

@@ -6,9 +6,7 @@ class Home extends Component {
         return (
             <div className = "Home">
                 <section className = "HomeBox">
-                    <h1>
-                        This is a text
-                    </h1>
+                    <h1>Bienvenido</h1>
                 </section>
             </div>
         );

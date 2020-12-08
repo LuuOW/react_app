@@ -5,7 +5,9 @@ class Projects extends Component {
     render () {
         return (
             <div className = "Projects">
-                hi
+                <section className = "ProjectsBox">
+                    <h1>Esto es en lo que eh estado trabajando</h1>
+                </section>
             </div>
         );
     }
