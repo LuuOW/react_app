@@ -34,4 +34,9 @@
 .nav-links {
     color: #ffffff;
     text-decoration: none;
+    padding: 2px 2px;
+}
+
+.nav-links-mobile {
+    display: none;
 }

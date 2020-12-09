@@ -6,7 +6,7 @@ class Projects extends Component {
         return (
             <div className = "Projects">
                 <section className = "ProjectsBox">
-                    <h1>Esto es en lo que eh estado trabajando</h1>
+                    <h1>Esto es en lo que he estado trabajando</h1>
                 </section>
             </div>
         );
