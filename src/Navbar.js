@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {MenuItems} from './MenuItems';
 import './Navbar.css';
 import Home from './Home';
+import { Button } from './signup/signupbtn';
 
 class Navbar extends Component {
     render() {
@@ -24,6 +25,7 @@ class Navbar extends Component {
                             </li>
                         );
                     })}
+                    <Button>Sign Up</Button>
                 </ul>
             </nav>
         );

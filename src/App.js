@@ -6,6 +6,7 @@ import Aboutme from './Aboutme';
 import Projects from './Projects';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 import SignUp from './signup/signup';
+import { Button } from './signup/signupbtn';
 
 function App() {
     return (
@@ -16,7 +17,6 @@ function App() {
                     <Route path = "/Home" component = {Home} />
                     <Route path = "/Projects" component = {Projects} />
                     <Route path = "/Aboutme" component = {Aboutme} />
-                    <Route path = '/SignUp' component = {SignUp} />
                 </Switch>
             </div>
         </Router>

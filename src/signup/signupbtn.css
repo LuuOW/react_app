@@ -8,13 +8,15 @@
     outline: none;
     border: none;
     cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .btn:hover {
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #ffffff;
-    color: #BB86FC;
+    color: #000000;
     transition: 250ms;
 }
 
