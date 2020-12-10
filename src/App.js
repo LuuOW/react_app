@@ -5,8 +5,6 @@ import Home from './Home';
 import Aboutme from './Aboutme';
 import Projects from './Projects';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
-import SignUp from './signup/signup';
-import { Button } from './signup/signupbtn';
 
 function App() {
     return (
