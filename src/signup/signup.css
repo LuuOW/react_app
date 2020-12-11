@@ -1,8 +1,29 @@
-.SignUp {
-    
+.Form {
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    justify-content: end;
+    width: 20vw;
 }
 
-.Form {
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.SignUp {
     background: #1F1B24;
     height: 45rem;
     width: 50rem;

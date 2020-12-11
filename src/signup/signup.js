@@ -5,10 +5,16 @@ class SignUp extends Component {
     render() {
         return (
             <div className="SignUp">
+                <h1>Registrate</h1>
                 <form className="Form">
-                    <h1>Registrate</h1>
-                    <label for="name">Name</label>
+                    <label for="username">Nombre de usuario: </label>
                     <input type="text" id="name" name="name" required></input>
+
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="password" required></input>
+
+                    <label for="password">Contraseña: </label>
+                    <input type="password" id="password" name="password" required></input>
                 </form>
             </div>
         );

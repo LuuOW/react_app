@@ -12,7 +12,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className = "NavbarItems">
-                <h1 className = "navbar-logo">
+                <h1 className = "navbar-logo" onClick = {() => this.nextPath('/home')}>
                     Kemp3
                     <i class="fas fa-skull"></i>
                 </h1>
