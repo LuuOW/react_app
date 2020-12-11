@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import {MenuItems} from './MenuItems';
 import './Navbar.css';
-import Home from './Home';
 import { Button } from './signup/signupbtn';
-import signup from './signup/signup';
-import { Redirect, Route } from 'react-router';
-import SignUp from './signup/signup';
+import {withRouter} from 'react-router-dom';
+
 
 class Navbar extends Component {
+    nextPath(SignUp) {
+        this.props.history.push(SignUp);
+    }
     render() {
         return(
             <nav className = "NavbarItems">
@@ -28,15 +29,11 @@ class Navbar extends Component {
                             </li>
                         );
                     })}
-                    <Route render = { ( {history} ) => (
-                        <Button onClick = { () => { history.push('/signup') } }>
-                            Sign Up
-                        </Button>
-                    )} />
+                    <Button onClick = {() => this.nextPath('/signup')}>Sign Up</Button>
                 </ul>
             </nav>
         );
     }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

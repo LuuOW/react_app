@@ -1,5 +1,5 @@
 :root {
-    --primary: #121212;
+    --primary: #03DAC5;
 }
 
 .btn {
@@ -8,7 +8,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
 }
 

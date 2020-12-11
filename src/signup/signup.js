@@ -1,11 +1,13 @@
-import './signup.js';
 import React, { Component } from 'react';
+import './signup.css';
 
 class SignUp extends Component {
     render() {
         return(
             <div className = "SignUp">
-                <h1>Hey</h1>
+                <section className = "Form">
+                    <h1>Douuu</h1>
+                </section>
             </div>
         );
     }
